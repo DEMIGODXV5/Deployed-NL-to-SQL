@@ -444,7 +444,7 @@ def get_genai_client(api_key):
 def get_sql_query(client, user_query):
     contents = f"{SYSTEM_PROMPT}\n\nHere is the user query you need to convert:\n{user_query}"
     response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
+        model="gemini-3.5-flash-lite",
         contents=contents
     )
     raw = response.text.replace("```json", "").replace("```", "").strip()
