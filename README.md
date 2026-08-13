@@ -1,4 +1,5 @@
-# 🗄️ Natural Language to SQL — E-Commerce Intelligence Dashboard
+# 🗄️QueryMin -  Natural Language to SQL — E-Commerce Intelligence Dashboard
+TRY - https://querymind-nl-to-sql.streamlit.app/
 
 A Streamlit web app that lets you query an e-commerce database using plain English. Powered by **Google Gemini 2.5 Flash Lite**, it converts your question into a SQL query, runs it, and shows you results with descriptive statistics, charts, and outlier detection — no SQL knowledge needed.
 
